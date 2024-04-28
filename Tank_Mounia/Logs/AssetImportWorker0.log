@@ -1,0 +1,1001 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.17f1 (396a1c6fe404) revision 3762716'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 32459 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projet/Tank_Mounia
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54054
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Projet/Tank_Mounia
+D:/Projet/Tank_Mounia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5692] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2049782973 [EditorId] 2049782973 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5692] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2049782973 [EditorId] 2049782973 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.17f1 (396a1c6fe404)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet/Tank_Mounia/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005629 seconds.
+- Loaded All Assemblies, in  0.560 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 309 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (218ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (455ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Tank_Mounia\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Tank_Mounia\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.191 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 2174ms
+	BeginReloadAssembly (450ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (622ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.5 MB). Loaded Objects now: 6539.
+Memory consumption went from 182.2 MB to 176.7 MB.
+Total: 13.456600 ms (FindLiveObjects: 1.110000 ms CreateObjectMapping: 1.470300 ms MarkObjects: 6.475300 ms  DeleteObjects: 4.399200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1562.314448 seconds.
+  path: Assets/MickeyMouse_PERSONAL_USE_ONLY SDF.asset
+  artifactKey: Guid(822907fe69a64574f9bcb17f83eb9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MickeyMouse_PERSONAL_USE_ONLY SDF.asset using Guid(822907fe69a64574f9bcb17f83eb9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7157e16eecfc7e40c185731ac788685') in 0.4188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.323569 seconds.
+  path: Assets/TreeJump.anim
+  artifactKey: Guid(01bb8132158bfec40bfb07c02f720961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreeJump.anim using Guid(01bb8132158bfec40bfb07c02f720961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31cfbb41db6b94721dd16cd69b4d1d5d') in 0.0018696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614406 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2bd1d18c5ca78dcef91efc007ec2c97') in 0.1534948 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 127
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.717706 seconds.
+  path: Assets/GameObject.controller
+  artifactKey: Guid(8ed6c9ff991df3c4da000546514358c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject.controller using Guid(8ed6c9ff991df3c4da000546514358c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adb6aba3f0aa883bb3b55cde16269827') in 0.0015422 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.315626 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a8ad1ebc679b1c8fb82dfc453ee104a') in 0.0372897 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.576083 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa6a4d84c2ae27f5ca4091d32f2def24') in 0.0354374 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.910858 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2400938c4a479e820a769390c7aff776') in 0.0341446 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.781694 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/Tornado4.fbx
+  artifactKey: Guid(24b7303006d756f4ebde0fbcc3f98b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Models/Tornado4.fbx using Guid(24b7303006d756f4ebde0fbcc3f98b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cb7cd6a97c673ef32e909da95735837') in 0.0719085 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/treePine.obj
+  artifactKey: Guid(9aa76127f3c21aa4cb619019e1439666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/treePine.obj using Guid(9aa76127f3c21aa4cb619019e1439666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b0598b5d470cc0d11fd00c0beac53ef') in 0.0560526 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/Twist3.fbx
+  artifactKey: Guid(6df4f99ca51068e46b4a41a6edc3d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Models/Twist3.fbx using Guid(6df4f99ca51068e46b4a41a6edc3d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0b299c93469b59dc2f5db6e1a8f7944') in 0.0248653 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/treePineSmallSnow.dae
+  artifactKey: Guid(8e3cb43ea9d7eb246a126c17824482cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/treePineSmallSnow.dae using Guid(8e3cb43ea9d7eb246a126c17824482cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbcbce22bcb4207cdb46f85c3d0f4203') in 0.0432238 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/treePineSmall.obj
+  artifactKey: Guid(cb84b11302f210f4a85bd708ab6307b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/treePineSmall.obj using Guid(cb84b11302f210f4a85bd708ab6307b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '620f06924e669e71d394448ba5385a16') in 0.048236 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/treePineSmall.dae
+  artifactKey: Guid(0b3c66be5c9af114aaa6058774bd2762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/treePineSmall.dae using Guid(0b3c66be5c9af114aaa6058774bd2762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0854cb6590999e0987ec216799161625') in 0.0503753 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/treeSnow.obj
+  artifactKey: Guid(183b6b4c20dc71b46960763cc2bc3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/treeSnow.obj using Guid(183b6b4c20dc71b46960763cc2bc3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2702dfff5c4f2a85811a814eefe07e76') in 0.0575593 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/tree.dae
+  artifactKey: Guid(0687628bbfee2024e837e7e568c94a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/tree.dae using Guid(0687628bbfee2024e837e7e568c94a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f4dcde0672ba56ebeafdc5d4108bd38') in 0.0479985 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/CylindricalCone2.fbx
+  artifactKey: Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Models/CylindricalCone2.fbx using Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb0a1a34172479148e15b1e80be771c6') in 0.0306606 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/treeSnow.dae
+  artifactKey: Guid(acd36463726157741a5bddfe42afce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/treeSnow.dae using Guid(acd36463726157741a5bddfe42afce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f78cbdc1a393ecd936ca09a7050c04') in 0.036673 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/treePine.dae
+  artifactKey: Guid(448049db7640e414ba02dc8bfb2c7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/treePine.dae using Guid(448049db7640e414ba02dc8bfb2c7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2d84dff77703edc1560b7501d654528') in 0.038333 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/WaterSphere.fbx
+  artifactKey: Guid(a32c7f0bfe2bba346a6424f074f81d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Models/WaterSphere.fbx using Guid(a32c7f0bfe2bba346a6424f074f81d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf730302dd20f69bcc26bf859973410') in 0.0294908 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/treePineSnow.obj
+  artifactKey: Guid(16ea42e1559184b449cf5896bfe2de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/treePineSnow.obj using Guid(16ea42e1559184b449cf5896bfe2de81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b736b8b9eb2a0207d30648003349e22') in 0.0481734 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.871681 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(12223f870da5a2049b54d534c2288ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4727f170e340e022c3358c10f5bef3a1') in 0.0604502 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.778598 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockHexagon.obj
+  artifactKey: Guid(40dd8397fda94f04585647d6242be45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockHexagon.obj using Guid(40dd8397fda94f04585647d6242be45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a54c89e9263f3475aea493e52fc3f5ec') in 0.0681706 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockHalf.obj
+  artifactKey: Guid(355aa918c770d3448ad2b21fd9e19179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockHalf.obj using Guid(355aa918c770d3448ad2b21fd9e19179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '766082624131a5dd3dc7164db0715afd') in 0.0528927 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCliff.dae
+  artifactKey: Guid(a29cd5151074dcc42b936065e2e45424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCliff.dae using Guid(a29cd5151074dcc42b936065e2e45424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4306f098c795cb8e05ff2375318495a1') in 0.052157 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockLevel.obj
+  artifactKey: Guid(14208c1f1f055e54290f2bfa71d00f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockLevel.obj using Guid(14208c1f1f055e54290f2bfa71d00f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa5e94620c6e98f490390f2e9715141b') in 0.0694051 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCliffCorner.dae
+  artifactKey: Guid(0fab239ca20bfcd45be23238c014a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCliffCorner.dae using Guid(0fab239ca20bfcd45be23238c014a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20ec2693f7d6d8fd2529a8f5cffbe164') in 0.0390704 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCornerSmall.dae
+  artifactKey: Guid(6345efc2e8b8c3a489469a6c37fd243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCornerSmall.dae using Guid(6345efc2e8b8c3a489469a6c37fd243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12db03be34d3189ab239f9448b913d81') in 0.046556 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockLarge.obj
+  artifactKey: Guid(74c54b632e1c33c43815dcf446cc82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockLarge.obj using Guid(74c54b632e1c33c43815dcf446cc82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cdcb3cff30f8550a169e861819575ee') in 0.0590367 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/hedge.obj
+  artifactKey: Guid(dc777d8c4e0bf8b488dfe4d4dfdb7a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/hedge.obj using Guid(dc777d8c4e0bf8b488dfe4d4dfdb7a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11c6d6ad7e18ee7cf9e7058917fefe26') in 0.0459393 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/block.obj
+  artifactKey: Guid(4b298b0317409b34081a9bd9cb4bb5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/block.obj using Guid(4b298b0317409b34081a9bd9cb4bb5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ec37a52a696ff3eb9552e69c1a8654') in 0.0652188 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCornerLarge.dae
+  artifactKey: Guid(10aeafd955dfdf64f982425d51effd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCornerLarge.dae using Guid(10aeafd955dfdf64f982425d51effd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb69d6261914157b4b1dcb38d1201711') in 0.0433661 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCurveHalf.dae
+  artifactKey: Guid(da4ac97205189b64397729507a639478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCurveHalf.dae using Guid(da4ac97205189b64397729507a639478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea831794c4ac283ca237d422c948e265') in 0.0438779 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCurveLow.dae
+  artifactKey: Guid(6650fe202fa871141879228bf5e3ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCurveLow.dae using Guid(6650fe202fa871141879228bf5e3ad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30eae577274962e71b6303f4bf770146') in 0.0455132 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockRoundedLong.obj
+  artifactKey: Guid(9eea80babac137e45ab5a6038099aee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockRoundedLong.obj using Guid(9eea80babac137e45ab5a6038099aee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf4c722b2499b3d5671f93963f24386') in 0.0574934 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockLong.obj
+  artifactKey: Guid(7ccc4c205615729429a21233b4c1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockLong.obj using Guid(7ccc4c205615729429a21233b4c1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4a793798ac5badd2ab555cd231d941') in 0.062078 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.613826 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockEnd.dae
+  artifactKey: Guid(1eea97253c32d2740970e04258adbf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockEnd.dae using Guid(1eea97253c32d2740970e04258adbf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c8bf0c032af36bcdca274309e368bc') in 0.0412863 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSlopeHalf.obj
+  artifactKey: Guid(a90e23a3141171145b1c745173e6c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSlopeHalf.obj using Guid(a90e23a3141171145b1c745173e6c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ec659f4a506037e65809b70ceef957') in 0.0525973 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockHexagonLow.dae
+  artifactKey: Guid(fa202cfffa8368c4690bc75e4714e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockHexagonLow.dae using Guid(fa202cfffa8368c4690bc75e4714e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe69b5769d9f78ea5ce8bfe26695d203') in 0.0357213 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockEnd.obj
+  artifactKey: Guid(38d8983a7bed12444a19bfd23506e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockEnd.obj using Guid(38d8983a7bed12444a19bfd23506e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71f2663d6daab93a3524b9475b71a9d8') in 0.0510745 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSlope.dae
+  artifactKey: Guid(f6cb76f85e42f1446a375a4c8b3379ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSlope.dae using Guid(f6cb76f85e42f1446a375a4c8b3379ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ab4e9a6846a57f484bf253de9b88daa') in 0.0374545 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCliffCorner.obj
+  artifactKey: Guid(f8ba8d4bae232544786487c42517171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCliffCorner.obj using Guid(f8ba8d4bae232544786487c42517171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dad0397574835d44ab78ee1172ed818') in 0.0474183 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockLevel.dae
+  artifactKey: Guid(1bace4bff6427c947b4d85551089193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockLevel.dae using Guid(1bace4bff6427c947b4d85551089193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4391d76e7a166433b91471ba83fedb78') in 0.0398892 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockRoundedLarge.dae
+  artifactKey: Guid(08a25cb1199c8a9478a9452d731e79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockRoundedLarge.dae using Guid(08a25cb1199c8a9478a9452d731e79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8718b91c9e22b689669556fafe0b722') in 0.0417417 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/hedge.dae
+  artifactKey: Guid(463e4ce6ba5028149b9b9442cbaec240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/hedge.dae using Guid(463e4ce6ba5028149b9b9442cbaec240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b43c1a8959089713e3c59c0e0406b9da') in 0.0356427 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockLong.dae
+  artifactKey: Guid(7dd9f2374e4767e428b823dff65d6d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockLong.dae using Guid(7dd9f2374e4767e428b823dff65d6d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1afbfa5d8f6697757e8609d6c1e779ca') in 0.0446609 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/hedgeCorner.dae
+  artifactKey: Guid(eb67a8216a76b344cbfca1f3a015e055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/hedgeCorner.dae using Guid(eb67a8216a76b344cbfca1f3a015e055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e9ce6addf0bc7a2e4743bb4fe9d6c8') in 0.0380464 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCornerLarge.obj
+  artifactKey: Guid(aeb374ae55aa7d741b4a30d65f1af901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCornerLarge.obj using Guid(aeb374ae55aa7d741b4a30d65f1af901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1787cdf797ccc46518da386dd99bff73') in 0.0536804 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/flowers.dae
+  artifactKey: Guid(a94d0515a0202fd40aea908fab91af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/flowers.dae using Guid(a94d0515a0202fd40aea908fab91af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb5c7a3536a08c6605b03b09ea44370') in 0.05486 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/flowersLow.dae
+  artifactKey: Guid(7f4d1d5e64eaebd4c8d805f18df7f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/flowersLow.dae using Guid(7f4d1d5e64eaebd4c8d805f18df7f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b56a19057405a81ec9bfc55e2d92a5c8') in 0.0593874 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo scene hero/GrayMat.mat
+  artifactKey: Guid(bb058fbc18c6ae64e9427db3f8279f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo scene hero/GrayMat.mat using Guid(bb058fbc18c6ae64e9427db3f8279f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ce8eb3359ce90c95951ffeac026fad4') in 0.0277494 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSlopeHalf.dae
+  artifactKey: Guid(55baf46b14c56a84183d0cf3ccadf79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSlopeHalf.dae using Guid(55baf46b14c56a84183d0cf3ccadf79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbce03e92bf99104a3c3e4df3ddc324f') in 0.0555431 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/heart.obj
+  artifactKey: Guid(4b5bb6b5eb852fd48887ccb69e3133fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/heart.obj using Guid(4b5bb6b5eb852fd48887ccb69e3133fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d73ab56e9694114210fa333ba74770f') in 0.0417796 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148375 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/heart.dae
+  artifactKey: Guid(8d7ee6236cc44d24ba37c2988c91932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/heart.dae using Guid(8d7ee6236cc44d24ba37c2988c91932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbcac1d61a74d4006ebc4ec175eee958') in 0.0325691 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/buttonRound.dae
+  artifactKey: Guid(c5fbd8daa0003ca4dadf415f23f9e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/buttonRound.dae using Guid(c5fbd8daa0003ca4dadf415f23f9e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af0ab47a94034c6bb67e443b8207f724') in 0.055466 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001835 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/flag.dae
+  artifactKey: Guid(6ca3ed17cc25a574cbde0c08c6b10bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/flag.dae using Guid(6ca3ed17cc25a574cbde0c08c6b10bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5594f3bf541fa2c1c083d65464878b92') in 0.040277 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703698 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/barrel.obj
+  artifactKey: Guid(74274c24438355345ad1240611d8635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/barrel.obj using Guid(74274c24438355345ad1240611d8635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd67b0766525d5e5dc930c2ea00992f6') in 0.0668584 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328609 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/doorOpen.dae
+  artifactKey: Guid(028d39186de32ed468c5d44327989e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/doorOpen.dae using Guid(028d39186de32ed468c5d44327989e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8323c1bb5fbc8dfbd144d90da99f8c31') in 0.0442247 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.912444 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/spikesLarge.obj
+  artifactKey: Guid(572af1812c8c5ee498ad0df370b60fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/spikesLarge.obj using Guid(572af1812c8c5ee498ad0df370b60fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e427885298cc804680d2ea3e2e17ddb') in 0.0545838 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/spikeBlock.obj
+  artifactKey: Guid(ac74e05ecc1a7ab48aadc1750f7dff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/spikeBlock.obj using Guid(ac74e05ecc1a7ab48aadc1750f7dff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79cf3ea18ad4a62d3988c6ef20c17278') in 0.0612141 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/spikeBlockWide.dae
+  artifactKey: Guid(0528c3445a07ffb40b6d7333b56af4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/spikeBlockWide.dae using Guid(0528c3445a07ffb40b6d7333b56af4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773fadc38c3f78725ef96f9191b64a50') in 0.0483157 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.906434 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/lever.obj
+  artifactKey: Guid(4d2e3f656ed55274b97381ea48bb0bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/lever.obj using Guid(4d2e3f656ed55274b97381ea48bb0bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea816b9441786df88acc163daea747db') in 0.2096766 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111318 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/stones.obj
+  artifactKey: Guid(4a80f0300e908e54ab9b01924573d32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/stones.obj using Guid(4a80f0300e908e54ab9b01924573d32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6e97a94c00500bb3cdcdfb0600645d8') in 0.052495 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274522 seconds.
+  path: Assets/Stylized Water For URP/Demos/Beach/Sand.mat
+  artifactKey: Guid(b8131d8718aa9414a89854eff3db1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Demos/Beach/Sand.mat using Guid(b8131d8718aa9414a89854eff3db1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd45ae02413a124140becfc907551782f') in 0.0212881 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLowLong.obj
+  artifactKey: Guid(f43104e50e630e348a94c179b2d7cbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLowLong.obj using Guid(f43104e50e630e348a94c179b2d7cbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2ba5e3ae12ab5d157ae0cf54bbfa13') in 0.0517177 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428208 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnow.obj
+  artifactKey: Guid(74389acee29230d4b8e6e17a7383bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnow.obj using Guid(74389acee29230d4b8e6e17a7383bc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52eab5225df29b97538403490932f8e2') in 0.0457609 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowLarge.obj
+  artifactKey: Guid(78f87e586ed41984685fdca56a42c5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowLarge.obj using Guid(78f87e586ed41984685fdca56a42c5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9258c112b34a5ba4be44d90e58c39132') in 0.0505125 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013945 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowHexagon.obj
+  artifactKey: Guid(35148ef9adf7e2047b187d20a25a31f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowHexagon.obj using Guid(35148ef9adf7e2047b187d20a25a31f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddb9ac2ab794cd012ff268b77238df85') in 0.0474885 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowCurveHalf.obj
+  artifactKey: Guid(26da3dd2d8022f44baabd0d775da1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowCurveHalf.obj using Guid(26da3dd2d8022f44baabd0d775da1f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e295548eb687f6af544480dcb635db28') in 0.0544302 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097108 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRounded.obj
+  artifactKey: Guid(6a5c1d4b5a43fc04ebd87d0b83cb9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRounded.obj using Guid(6a5c1d4b5a43fc04ebd87d0b83cb9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dd1adb7f28e04408fa405ab2cdf2af4') in 0.0487019 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowCornerSmall.dae
+  artifactKey: Guid(669da610d538b0546aeacd25ddcc6a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowCornerSmall.dae using Guid(669da610d538b0546aeacd25ddcc6a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706544bbf185d0f25ca821be9fdf27a2') in 0.0395948 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020469 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnow.dae
+  artifactKey: Guid(63c4012f83574974499971ffcac6eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnow.dae using Guid(63c4012f83574974499971ffcac6eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bfc552503d0d84a2063e8f3f6f9cd11') in 0.0433757 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188116 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowSlopeHalf.dae
+  artifactKey: Guid(9d592191d9b14b245a1063436e00f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowSlopeHalf.dae using Guid(9d592191d9b14b245a1063436e00f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '103b50567a40421e2300a19a794fe16e') in 0.0404489 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173187 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowRoundedLowLong.dae
+  artifactKey: Guid(15c6f2c2670b9d449a73dd09ddb8177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowRoundedLowLong.dae using Guid(15c6f2c2670b9d449a73dd09ddb8177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '042217d8739389d93afbcfd0a136bb2c') in 0.0499073 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowLong.dae
+  artifactKey: Guid(95b8e83d379501d45ac69d8b30472da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowLong.dae using Guid(95b8e83d379501d45ac69d8b30472da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d5ad4ac7dbb2f9eac92c9a70acda96') in 0.045072 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowHexagonLow.dae
+  artifactKey: Guid(71c16236b56b71f49aea6f58cb6f70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowHexagonLow.dae using Guid(71c16236b56b71f49aea6f58cb6f70c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ad3bf720ec2a5e9f03913f562be21c') in 0.0503103 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowLarge.dae
+  artifactKey: Guid(3247f0e08a633b0428e8c93d90a12f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowLarge.dae using Guid(3247f0e08a633b0428e8c93d90a12f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17fb1dbc18d28a0f5841646399760d50') in 0.0412155 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Explosion.shadergraph
+  artifactKey: Guid(94156f61f72b54f408d7f9bfb9547503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Explosion.shadergraph using Guid(94156f61f72b54f408d7f9bfb9547503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366643d32400ba2425cb1cffd7676a7f') in 0.480954 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Stylized Water For URP/Shaders/Stylized Water Underwater.shadergraph
+  artifactKey: Guid(c364b2f6d92c3d94fb154cb63a77dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Shaders/Stylized Water Underwater.shadergraph using Guid(c364b2f6d92c3d94fb154cb63a77dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29c9826b9886678148d598918fc7047') in 0.0828262 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowQuarter.dae
+  artifactKey: Guid(35013e3cad7342a40986aaac015dc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowQuarter.dae using Guid(35013e3cad7342a40986aaac015dc12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd4b3bca508a0420315b708ba2e89f0') in 0.0563137 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

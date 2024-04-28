@@ -1,0 +1,571 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.17f1 (396a1c6fe404) revision 3762716'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'fr' Physical Memory: 32459 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Projet/Tank_Mounia
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54054
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Projet/Tank_Mounia
+D:/Projet/Tank_Mounia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13408] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2778362130 [EditorId] 2778362130 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13408] Host "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2778362130 [EditorId] 2778362130 [Version] 1048832 [Id] WindowsEditor(7,Luis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.17f1 (396a1c6fe404)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projet/Tank_Mounia/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004970 seconds.
+- Loaded All Assemblies, in  0.433 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 276 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (392ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Tank_Mounia\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Tank_Mounia\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.940 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1776ms
+	BeginReloadAssembly (382ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.5 MB). Loaded Objects now: 6539.
+Memory consumption went from 184.3 MB to 178.8 MB.
+Total: 14.549900 ms (FindLiveObjects: 1.932700 ms CreateObjectMapping: 1.006200 ms MarkObjects: 7.168700 ms  DeleteObjects: 4.440600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1733.798773 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockRoundedLarge.obj
+  artifactKey: Guid(23ff7d185d754784e82c7df89d7f864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockRoundedLarge.obj using Guid(23ff7d185d754784e82c7df89d7f864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3666d7e40291970a9a773fae1de9175b') in 0.666175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockCurve.dae
+  artifactKey: Guid(e7a64a11a4f3799418f790c56cb3eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockCurve.dae using Guid(e7a64a11a4f3799418f790c56cb3eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0b39e8fc09325912c7db853e18a6271') in 0.0503961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockQuarter.obj
+  artifactKey: Guid(32a0ca6a2fdfb2a4cab64e9658844c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockQuarter.obj using Guid(32a0ca6a2fdfb2a4cab64e9658844c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a0d07d05ed6174b7c236cea169ca8ed') in 0.0593025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/block.dae
+  artifactKey: Guid(200b655a29dc4d94ea87d69c4702d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/block.dae using Guid(200b655a29dc4d94ea87d69c4702d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40ec9cc175d89f7575f610b1bce0c259') in 0.0469305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockRounded.obj
+  artifactKey: Guid(77fa79458b9a828489f264b07210e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockRounded.obj using Guid(77fa79458b9a828489f264b07210e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e789386e66403eebc904f5e6b6fb1b9') in 0.0578874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596534 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockHalf.dae
+  artifactKey: Guid(61d9a8f7b0d22a744bf749a4c63c45d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockHalf.dae using Guid(61d9a8f7b0d22a744bf749a4c63c45d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47f297e636a8830051e0546e56f80167') in 0.0437724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/hedgeCorner.obj
+  artifactKey: Guid(e80f58e69bd080d4cb57e710560b0980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/hedgeCorner.obj using Guid(e80f58e69bd080d4cb57e710560b0980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5044bb63683bc69b1d55a06ea87768') in 0.0416685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockLarge.dae
+  artifactKey: Guid(c50e02aa401b1334e8aa53b89b2b33ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockLarge.dae using Guid(c50e02aa401b1334e8aa53b89b2b33ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ee6105f7d063e5bed343db3c077315') in 0.0400249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockRounded.dae
+  artifactKey: Guid(bd01e499635a10743b825c5ad4b954b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockRounded.dae using Guid(bd01e499635a10743b825c5ad4b954b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bd2417dc05b60be775ecd3031a24552') in 0.0398268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockRoundedLong.dae
+  artifactKey: Guid(8db0e7dd6224ccd4daf003c281cc9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockRoundedLong.dae using Guid(8db0e7dd6224ccd4daf003c281cc9fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c54cc071917ebb043607f03a557f507') in 0.036744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCurveLow.obj
+  artifactKey: Guid(5b634fd9ebbc56c4bba6f3bf0f76071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCurveLow.obj using Guid(5b634fd9ebbc56c4bba6f3bf0f76071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a0a0905c7d317664093a0fbc9a82b1') in 0.0514541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/plant.dae
+  artifactKey: Guid(a7ab1243264ec73429c3e807aa9bc633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/plant.dae using Guid(a7ab1243264ec73429c3e807aa9bc633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8db9b616250a5609f6f31a68beb54fd') in 0.0322348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCliff.obj
+  artifactKey: Guid(1d76923e60846834996f83b4c5ba8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCliff.obj using Guid(1d76923e60846834996f83b4c5ba8467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f6d52945c848d2ebd7d5800f743171') in 0.0505289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/flowersLow.obj
+  artifactKey: Guid(d95bc765b800fcf41b0489bb75ded460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/flowersLow.obj using Guid(d95bc765b800fcf41b0489bb75ded460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ecd538811f8d0acca459125d37bf444') in 0.0724218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCurve.obj
+  artifactKey: Guid(a1e1f030cee78d34981dcfdf964c90e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCurve.obj using Guid(a1e1f030cee78d34981dcfdf964c90e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f842f557d43f011e74ea49a7cc1069b2') in 0.0586952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockQuarter.dae
+  artifactKey: Guid(6ec1d46aa9f68bf488d65a9b2e8a8b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockQuarter.dae using Guid(6ec1d46aa9f68bf488d65a9b2e8a8b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc68a4cea8c2427f78e1473012c7ce72') in 0.0492601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCornerSmall.obj
+  artifactKey: Guid(c117fbb301bfaac458fff12633234596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCornerSmall.obj using Guid(c117fbb301bfaac458fff12633234596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36b6ae1af8165dea4ea1fea2ff694f3d') in 0.0527541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/plant.obj
+  artifactKey: Guid(fd0f7d4194ef09849b7a804d1512c47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/plant.obj using Guid(fd0f7d4194ef09849b7a804d1512c47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bda0787e3fea661ef0f5a7be8617325') in 0.0454881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockHexagon.dae
+  artifactKey: Guid(4300482c8a1c7d24e835e07332ccb227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockHexagon.dae using Guid(4300482c8a1c7d24e835e07332ccb227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59aeb0c7fed10d89f93b73f695bd299') in 0.0478663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/mushrooms.obj
+  artifactKey: Guid(d6646b8cee83c8f4a87db5a4881273f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/mushrooms.obj using Guid(d6646b8cee83c8f4a87db5a4881273f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d42e4740c39cb9c0643401885962b1b') in 0.0653988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockCurveHalf.obj
+  artifactKey: Guid(ec7222106291ab54d8800a21d40b184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockCurveHalf.obj using Guid(ec7222106291ab54d8800a21d40b184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6d1f20f9cc6dbad6f9eddeaea51d838') in 0.0527706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154103 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/mushrooms.dae
+  artifactKey: Guid(18f760b9328e5464e8214fdb894fbcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/mushrooms.dae using Guid(18f760b9328e5464e8214fdb894fbcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bebb0ba3a93129bf85239185c1fb8c8') in 0.0403202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.225431 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/doorLargeOpen.dae
+  artifactKey: Guid(bc675f4038cfec14f8f6656e0ff019f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/doorLargeOpen.dae using Guid(bc675f4038cfec14f8f6656e0ff019f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d7ff4da753828da3cb6471d6fb2ee8') in 0.043153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/bomb.obj
+  artifactKey: Guid(0729019ecac84c84f8a85d219497a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/bomb.obj using Guid(0729019ecac84c84f8a85d219497a6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ec197d66400b9d3b6ad7dbc3a26ca35') in 0.0627461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.838410 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/spikesLarge.dae
+  artifactKey: Guid(ba4699c47d68f694c9d0b4c44d7bf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/spikesLarge.dae using Guid(ba4699c47d68f694c9d0b4c44d7bf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cd96a8dbaa3f75262817c516bc3f903') in 0.0352657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/spikes.dae
+  artifactKey: Guid(a166b99965d30d944825c7e5647e0b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/spikes.dae using Guid(a166b99965d30d944825c7e5647e0b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1122a5688ad1010b7afda9a9783bbb4a') in 0.033633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/saw.dae
+  artifactKey: Guid(79b8812c8e465ae418561f4d6746893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/saw.dae using Guid(79b8812c8e465ae418561f4d6746893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8af0efa8fe7ad50c243e1b03c7a656') in 0.0375334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/saw.obj
+  artifactKey: Guid(2381cf30c91a52c4f9d82c7769ad2d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/saw.obj using Guid(2381cf30c91a52c4f9d82c7769ad2d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90a5cb5f40585d1a754e3042be693866') in 0.0504577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.900081 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/barrel.dae
+  artifactKey: Guid(a16db374f2491e24c9ee65c1d5698b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/barrel.dae using Guid(a16db374f2491e24c9ee65c1d5698b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f87bacd9996dc4ed563164e8daf8bb2') in 0.1571699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162688 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/stones.dae
+  artifactKey: Guid(3951efaea49af044a9e6c19eea72a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/stones.dae using Guid(3951efaea49af044a9e6c19eea72a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9da1cf1bb61282b8a8b901349594d62') in 0.0365719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/rocks.obj
+  artifactKey: Guid(6edd236b45e0db7479fbbda8542247ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/rocks.obj using Guid(6edd236b45e0db7479fbbda8542247ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd15fbda150547a3932ea19c6dd84df3') in 0.0431079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234903 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLong.obj
+  artifactKey: Guid(363cb46f0a1a2bb4cad683fc1a256694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLong.obj using Guid(363cb46f0a1a2bb4cad683fc1a256694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '699d46a51bb2949fde206dd6526d360e') in 0.0525685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460106 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowQuarter.obj
+  artifactKey: Guid(1ca05722b34d36a42b6566c054c1d857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowQuarter.obj using Guid(1ca05722b34d36a42b6566c054c1d857) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26a404f414c38f5c1e6edd840f677481') in 0.0528807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067534 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowHalf.obj
+  artifactKey: Guid(03d0a3051115ab64d888e26f9b4ec7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowHalf.obj using Guid(03d0a3051115ab64d888e26f9b4ec7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66010f0e4be8d61f1d6a400c57bbdef2') in 0.0462026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowCornerSmall.obj
+  artifactKey: Guid(3bff78a945c63fc479a9a6d956b7507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowCornerSmall.obj using Guid(3bff78a945c63fc479a9a6d956b7507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f6a2388fbe54d7255df125caa82e07') in 0.0529946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099211 seconds.
+  path: Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLarge.obj
+  artifactKey: Guid(1893f94afc5a45949ab26137392fd576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/OBJ format/blockSnowRoundedLarge.obj using Guid(1893f94afc5a45949ab26137392fd576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19310b2040fb8a01d0de6dd62577f47b') in 0.0484136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowCliffCorner.dae
+  artifactKey: Guid(3811dc80bc655e747ab5737f6efccf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowCliffCorner.dae using Guid(3811dc80bc655e747ab5737f6efccf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ad6b629283a84f40eebae33bdd9621') in 0.0408011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022827 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowCurveHalf.dae
+  artifactKey: Guid(3f8d9cf2ce36b5045a766f7293d4e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowCurveHalf.dae using Guid(3f8d9cf2ce36b5045a766f7293d4e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d990404b29cf24f53e6745519c2e88') in 0.0411482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409320 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowRoundedLow.dae
+  artifactKey: Guid(f6ae031926fbdf74daaa877535426c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowRoundedLow.dae using Guid(f6ae031926fbdf74daaa877535426c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8591f3a4b14a08dd84c03a58e3339921') in 0.0436133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowHalf.dae
+  artifactKey: Guid(f983966eb65f89243bf5bb3aa3e65a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowHalf.dae using Guid(f983966eb65f89243bf5bb3aa3e65a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893e0ec531f508f8b6502e89ec7853e9') in 0.0431737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cartoon_Tank_Free/CTF_Materials/TankColor.mat
+  artifactKey: Guid(dbe28fe7b993d86408a15da449fb70c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Tank_Free/CTF_Materials/TankColor.mat using Guid(dbe28fe7b993d86408a15da449fb70c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb99e94dc20339c33f233368b391737') in 0.0594308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/kenney_platformer-kit/Models/DAE format/blockSnowSlope.dae
+  artifactKey: Guid(825af6f98196b9b47a2d23d16620c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-kit/Models/DAE format/blockSnowSlope.dae using Guid(825af6f98196b9b47a2d23d16620c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a760d1e63052e8499264d16b00fd5afa') in 0.0461344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_TwoSides.shadergraph
+  artifactKey: Guid(fd42847feb7e352439f0ceed3532b186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_TwoSides.shadergraph using Guid(fd42847feb7e352439f0ceed3532b186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8cb1904dfd8d8fd3d621e1d722f78ef') in 0.0239001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_CG.shadergraph
+  artifactKey: Guid(00191177e5fd5c4468ad546ce87ef329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Blend_CG.shadergraph using Guid(00191177e5fd5c4468ad546ce87ef329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046916e4852f84f667522ddc2401d78b') in 0.0231072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Distortion.shadergraph
+  artifactKey: Guid(df628dd226338d7419358b8bff74bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Render Pipelines support/Shaders/URP_Distortion.shadergraph using Guid(df628dd226338d7419358b8bff74bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9866e93d29ac911b5d1600db6811c4d6') in 0.605682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
